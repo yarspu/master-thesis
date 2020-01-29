@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-6">
+                Поставщики: <input type="text" class='provider'>
+            </div>
+            <div class="col-6">
+                Потребители: <input type="text" class='consumer'>
+            </div>
+        </div>
+        <p>* для решения транспортной задачи сначала определяется начальный опорный план, а затем определяется оптимальный план путем улучшения текущего опорного плана.</p>
+        <input type="button" class='create w-100 mb-2 bg-warning' value="Вывести">
+    </div>
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <!-- normal script imports etc  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./vendor.js"></script>
+    <script src="./main.js"></script>
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
+</body>
+</html>

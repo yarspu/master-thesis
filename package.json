@@ -1,0 +1,16 @@
+{
+  "name": "disser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.10",
+    "electron-packager": "^14.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+.tab {
+    width: 100%;
+}
+
+
+td {
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
